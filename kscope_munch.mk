@@ -14,6 +14,8 @@ $(call inherit-product, vendor/kscope/target/product/mobile.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := kscope_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
