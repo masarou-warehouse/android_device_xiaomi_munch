@@ -8,13 +8,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Kaleidoscope stuff.
+$(call inherit-product, vendor/kscope/config/mobile.mk)
 
-# Inherit from alioth device
+# Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := lineage_munch
+PRODUCT_NAME := kscope_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
