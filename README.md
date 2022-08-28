@@ -23,4 +23,4 @@ Camera (Redmi K40S) | 48 MP, f/1.8, (wide), 1/2", 0.8µm, PDAF, OIS; 8 MP, f/2.2
 
 ## Device picture
 
-![POCO F4](https://i02.appmifile.com/142_operator_sg/20/06/2022/e3fcd19ac9ecd3c93cca4042771387ba.jpg "POCO F4")
+![Redmi K40S](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1647515841.81335695.png "Redmi K40S")
