@@ -31,6 +31,10 @@ PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Camera
+PRODUCT_PACKAGES += \
+    libpiex_shim
+
 # Google Camera Go
 PRODUCT_PACKAGES += \
     CameraLite
