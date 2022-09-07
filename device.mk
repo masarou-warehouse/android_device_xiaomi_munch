@@ -13,7 +13,7 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-kscope
+    $(LOCAL_PATH)/overlay-aosp
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -57,10 +57,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# Via Browser
-PRODUCT_PACKAGES += \
-    ViaBrowser
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)

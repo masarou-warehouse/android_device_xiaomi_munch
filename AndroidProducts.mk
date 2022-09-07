@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope_munch.mk
+    $(LOCAL_DIR)/aosp_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    kscope_munch-user \
-    kscope_munch-userdebug \
-    kscope_munch-eng
+    aosp_munch-user \
+    aosp_munch-userdebug \
+    aosp_munch-eng
