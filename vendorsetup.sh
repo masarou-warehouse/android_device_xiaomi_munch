@@ -1,3 +1,6 @@
+rm -rf device/xiaomi/sm8250-common
+git clone --depth=1 https://github.com/itsurboimasarou/device_xiaomi_sm8250-common device/xiaomi/sm8250-common
+
 rm -rf kernel/xiaomi/munch
 git clone --depth=1 https://github.com/itsurboimasarou/kernel_xiaomi_munch kernel/xiaomi/sm8250
 
