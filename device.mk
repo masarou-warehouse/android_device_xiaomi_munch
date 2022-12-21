@@ -15,7 +15,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/munch-miuicamera/products/miuica
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp
+    $(LOCAL_PATH)/overlay-lineage
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
