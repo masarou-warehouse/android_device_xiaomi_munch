@@ -12,6 +12,12 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/munch-miuicamera/products/miuicamera.mk)
 
+# Inherit from MindTheGApps
+ifeq ($(WITH_GAPPS), true)
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+TARGET_UNOFFICIAL_BUILD_ID += GAPPS
+endif
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
