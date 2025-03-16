@@ -95,7 +95,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_SOURCE := kernel/xiaomi/munch
 TARGET_KERNEL_CONFIG := \
-    vendor/xiaomi/munch.config
+    vendor/xiaomi/munch.config \
     vendor/kona-perf_defconfig \
     vendor/debugfs.config \
     vendor/xiaomi/sm8250-common.config
@@ -163,9 +163,6 @@ TARGET_RELEASETOOLS_EXTENSIONS ?= $(DEVICE_PATH)
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
-
-# Rootdir
-SOONG_CONFIG_XIAOMI_KONA_PARTITION_SCHEME := vab
 
 # Security patch level
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
