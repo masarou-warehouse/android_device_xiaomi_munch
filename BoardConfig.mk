@@ -79,8 +79,8 @@ TARGET_HAS_HDR_DISPLAY := true
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/fs/config.fs
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_munch
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_munch
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_xiaomi_munch
+TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_munch
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
