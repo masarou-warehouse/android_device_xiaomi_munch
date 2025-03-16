@@ -1,6 +1,10 @@
 [
   {
-    "repository": "android_device_xiaomi_sm8250-common",
-    "target_path": "device/xiaomi/sm8250-common"
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "android_kernel_xiaomi_sm8250",
+    "target_path": "kernel/xiaomi/sm8250"
   }
 ]
