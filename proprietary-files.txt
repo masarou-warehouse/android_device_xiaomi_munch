@@ -123,8 +123,8 @@ vendor/lib64/camera/com.qti.sensor.munch_ov8856.so
 vendor/lib64/camera/com.qti.sensormodule.munch_aac_ov8856_ultra.bin
 vendor/lib64/camera/com.qti.sensormodule.munch_ofilm_gc02m1_macro.bin
 vendor/lib64/camera/com.qti.sensormodule.munch_ofilm_imx596_front.bin
+vendor/lib64/camera/com.qti.sensormodule.munch_ofilm_imx582_wide.bin
 vendor/lib64/camera/com.qti.sensormodule.munch_sunny_gc02m1_macro.bin
-vendor/lib64/camera/com.qti.sensormodule.munch_sunny_imx582_wide.bin
 vendor/lib64/camera/com.qti.sensormodule.munch_sunny_imx596_front.bin
 vendor/lib64/camera/com.qti.sensormodule.munch_sunny_ov64b40_wide.bin
 vendor/lib64/camera/com.qti.sensormodule.munch_sunny_ov8856_ultra.bin
