@@ -25,3 +25,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="munch-user 13 RKQ1.211001.001 V816.0.5.0.ULMMIXM release-keys" \
     BuildFingerprint=Redmi/munch/munch:13/RKQ1.211001.001/V816.0.5.0.ULMMIXM:user/release-keys
+
+# Inherit AxionAOSP configurations
+AXION_MAINTAINER := masarou
+AXION_CAMERA_REAR_INFO := 48,5,2
+AXION_CAMERA_FRONT_INFO := 20
+AXION_PROCESSOR := Snapdragon_870
+TARGET_INCLUDE_VIPERFX := true
